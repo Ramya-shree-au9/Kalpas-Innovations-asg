@@ -1,0 +1,152 @@
+.datadisplay{
+    background-color: #ccccff5d;
+    margin: 0% 15%;
+    border-radius: 15px;
+}
+
+.sidebar{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.144);
+    border-radius: 15px;
+}
+.horisection{
+    margin: 3%;
+    margin-top:3%;
+}
+
+.detsection{
+    background-color: white;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 5px;
+    width: 90%;
+   
+}
+
+.imgsec{
+    text-align: center;
+    margin-top: 2%;
+    position: relative;
+}
+
+.imgsec img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0;
+  
+   top: 50%;
+    left: 20%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+.summarysec{
+    font-size: 85%;
+}
+.titlesec{
+    font-weight: 600;
+    font-size: 110%;
+}
+
+
+.pagenumber{
+    background-color: gray;
+    color: white;
+}
+
+.color{
+    background-color: white;
+    color: black;
+}
+
+.pagesetup span{
+    padding: 1% 2%;
+    margin: 2%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagesetup{
+    text-align: center;
+    margin-top: 3%;
+}
+.datecolor{
+    color: rgba(0, 0, 0, 0.39);
+    font-size: 80%;
+}
+
+.vertidisplay{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin: 3%;
+    margin-top: 0%;
+    
+}
+.vertidata{
+    margin: 4%;
+    padding:0 9% 9% 9%;
+    min-height:250px ;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.imgverti{
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 5%;
+}
+
+.deletesecvert{
+    margin-left: 100%;
+    color: red;
+}
+.rowsec{
+    display: flex;
+    
+}
+.deletesection{
+    position:relative;
+}
+.deletesection i{
+    font-size: 130%;
+   color: red;
+   padding: 5px 8px;
+   background-color: white;
+   border-radius: 50%;
+   text-align: center;
+   position: absolute;
+   margin: 0;
+  
+   top: 50%;
+    left: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 768px) {
+    .imgsec{
+        height: 60px;
+
+    }
+    .detsection{
+        margin-top: 5%;
+    }
+    .imgsec img{
+        left: 40%;
+    }
+    .vertidisplay{
+        grid-template-columns: 1fr 1fr  ;
+    }
+    /* .datadisplay{ 
+        margin: 0% 10%;
+    } */
+}
+
+@media only screen and (max-width: 500px) {
+    .datadisplay{ 
+        margin: 0% 10%;
+    }
+    .vertidisplay{
+        grid-template-columns: 1fr  ;
+    }
+}

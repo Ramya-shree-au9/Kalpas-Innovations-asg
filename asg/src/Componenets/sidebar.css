@@ -1,0 +1,72 @@
+.imgsection{
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+.img{
+    position:relative;
+    width: 30px;
+}
+.img img{
+    position: absolute;
+    margin: 0;
+   
+    top: 50%;
+     left: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+
+#icon{
+    /* border: 2px solid black; */
+    padding:2% 10%;
+    margin: 2% 0;
+}
+.namesection{
+    /* line-height: 5px; */
+    padding: 4% 4% 4% 10%;
+    
+}
+.sidebarsec{
+    margin-top: 15%;
+}
+.btncolor{
+    background-color: turquoise;
+}
+.togsection{
+    background-color: white;
+    margin: 8% 0;
+    border-radius: 5px;
+    text-align: center;
+    padding: 4%;
+}
+
+.togsection button{
+    padding: 2% 8%;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.11);
+}
+
+.feedbackicon{
+    padding: 4%;
+   background-color: turquoise;
+   border-radius: 3px;
+   margin-bottom: 15%;
+}
+
+.head{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebarsec{
+        margin-top: 6%;
+    }
+   
+}

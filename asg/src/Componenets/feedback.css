@@ -1,0 +1,44 @@
+.feeddisplay{
+    padding:3% 5%;
+}
+
+.inputbox{
+    margin: 2% 0;
+}
+
+.inputbox label{
+    display: block;
+    margin-bottom: .5%;
+}
+
+.inputbox input,textarea{
+    margin-top: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+}
+
+.countrycode{
+    padding: .5%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
+    margin-right: 2%;
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.feedsubmit{
+    margin-top: 2%;
+    padding: .5%;
+}
+
+.err{
+    color: red;
+    padding-left: 4%;
+    font-size: 80%;
+}
+
+@media only screen and (max-width: 800px) {
+    
+}
